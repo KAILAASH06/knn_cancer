@@ -19,6 +19,10 @@ def predict_cancer(g1,g2):
     prediction = loaded_model.predict(new_data)
     st.write("Prediction with new data: ")
     st.write(prediction)
+    if prediction == 1
+        st.write("Cancer detected")
+    else
+        st.write("No cancer")
     
 
 
